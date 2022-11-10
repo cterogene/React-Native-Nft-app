@@ -4,7 +4,7 @@ import React from 'react'
 const NFTCard = () => {
   return (
     <View>
-      <Text>NFTCards</Text>
+      <Text>NFTCard</Text>
     </View>
   )
 }
