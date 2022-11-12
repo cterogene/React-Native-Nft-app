@@ -29,7 +29,7 @@ export const CircleButton = ({imgUrl, handlePress, ...props}) => {
 export const RectButton = () => {
     return (
       <View>
-        <Text>RectButton</Text>
+        <Text>Button</Text>
       </View>
     )
   }
