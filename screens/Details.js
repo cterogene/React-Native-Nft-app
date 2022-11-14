@@ -2,6 +2,7 @@ import { COLORS, SIZES, SHADOWS, FONTS, assets } from '../constants';
 import { Text, View, SafeAreaView, Image, StatusBar, FlatList } from 'react-native'
 import { CircleButton, RectButton, SubInfo, FocusedStatusBar, DetailsDesc, DetailsBid } from '../components';
 import React from 'react';
+import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 const DetailsHeader = ({data, navigation}) =>(
   <View style={{ width: '100%', height: 373}}>
@@ -57,6 +58,17 @@ const Details = ({route, navigation}) => {
             <View style={{ padding: SIZES.font}} >
 
               <DetailsDesc  data ={data}/>
+
+              {data.bids.length > 0 && (
+                <Text style={{
+                  fontSize: SIZES.font,
+                  fontFamily: FONTS.semiBold,
+                  color: COLORS.primary
+                }}>
+                  Current Bid
+
+                </Text>
+              )}
 
             </View>
           </React.Fragment>
