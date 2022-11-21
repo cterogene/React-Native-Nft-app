@@ -1,5 +1,5 @@
 # NFT APP
-NFT app to showcase, buy, sell and more.
+NFT app to showcase, buy, sell and much more,  UI and UX design.
 ### User Stories
 
 
@@ -16,8 +16,8 @@ NFT app to showcase, buy, sell and more.
 <img src="nft3.png" width=600 height=350><br>
 
 # Estimated working time
- 31 hour and 30 minutes. 
+ 5 hours 
 
 ### Notes
 
-Building a Portfolio is a challenge. Being ready to add Skills and Challenges for people around the world to see. and sometimes it's a quite difficult to choose what to choose.
+Challenge yourself is always something to do. Growing and updating is part of our journey. 
